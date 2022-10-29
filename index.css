@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Pacifico&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    display:flex;
+}
+ul li{
+    margin-right: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    margin-right: 3px;
+}
+h3{
+    padding-top: 15px;
+}
+.makale{
+    text-align: center;
+    padding-top: 30px;
+}
+h1{
+    padding-right: 80px;
+    font-size: 50px;
+    font-family: pacifico;
+}
+.arkayüz{
+    padding-top: 10px;
+    font-family: pacifico;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vw;
+}
+nav{
+    height: 35vw;
+    background-image: url("earth-global-world-map-abstract-background-vector-illustration_56104-1005.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
